@@ -3,7 +3,7 @@
 ###############################################################################
 
 variable "region" {
-    default = "eu-west-1" #London
+    default = "eu-west-2" #London
 }
 
 variable "access_key" {}
