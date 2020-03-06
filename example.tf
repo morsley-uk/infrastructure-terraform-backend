@@ -7,6 +7,6 @@
 #         bucket         = "morsley-uk-terraform-backend"
 #         key            = "infrastructure"
 #         region         = var.region
-#         dynamodb_table = "tfstatelock"
+#         dynamodb_table = "tfstatelock-[PROJECT]"
 #     }
 # }

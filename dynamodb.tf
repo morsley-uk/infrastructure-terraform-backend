@@ -2,9 +2,9 @@
 # DYNAMNODB
 ###############################################################################
 
-resource "aws_dynamodb_table" "terraform_statelock" {
+resource "aws_dynamodb_table" "terraform-statelock-k8s" {
 
-    name = "tfstatelock"
+    name = "tfstatelock-k8s"
     read_capacity = 20
     write_capacity = 20
     hash_key = "LockID"
