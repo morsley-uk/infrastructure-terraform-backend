@@ -4,7 +4,7 @@
 
 resource "aws_s3_bucket" "s3" {
 
-    bucket = "morsley-uk-terraform-backend"
+    bucket = "morsley-io-terraform"
     acl = "private"
 
     versioning {

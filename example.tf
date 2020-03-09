@@ -4,7 +4,7 @@
 
 # terraform {
 #     backend "s3" {
-#         bucket         = "morsley-uk-terraform-backend"
+#         bucket         = "morsley-io-terraform"
 #         key            = "infrastructure"
 #         region         = var.region
 #         dynamodb_table = "tfstatelock-[PROJECT]"
