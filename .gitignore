@@ -1,11 +1,6 @@
 # Rider
 .idea
 
-# Git
-
-
 # Terraform
 .terraform
 *.tfvars
-*.tfstate
-*.backup
