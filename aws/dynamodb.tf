@@ -30,6 +30,34 @@ resource "aws_dynamodb_table" "terraform-statelock-rancher" {
 
 }
 
+resource "aws_dynamodb_table" "terraform-statelock-concourse" {
+
+    name = "morsley-io-tfstatelock-rancher"
+    read_capacity = 20
+    write_capacity = 20
+    hash_key = "LockID"
+
+    attribute {
+        name = "LockID"
+        type = "S"
+    }
+
+}
+
+resource "aws_dynamodb_table" "terraform-statelock-vault" {
+
+    name = "morsley-io-tfstatelock-rancher"
+    read_capacity = 20
+    write_capacity = 20
+    hash_key = "LockID"
+
+    attribute {
+        name = "LockID"
+        type = "S"
+    }
+
+}
+
 resource "aws_dynamodb_table" "terraform-statelock-bootstrap-rancher" {
 
     name = "morsley-io-tfstatelock-bootstrap-rancher"
