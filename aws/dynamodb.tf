@@ -32,7 +32,7 @@ resource "aws_dynamodb_table" "terraform-statelock-rancher" {
 
 resource "aws_dynamodb_table" "terraform-statelock-concourse" {
 
-    name = "morsley-io-tfstatelock-rancher"
+    name = "morsley-io-tfstatelock-concourse"
     read_capacity = 20
     write_capacity = 20
     hash_key = "LockID"
@@ -46,7 +46,7 @@ resource "aws_dynamodb_table" "terraform-statelock-concourse" {
 
 resource "aws_dynamodb_table" "terraform-statelock-vault" {
 
-    name = "morsley-io-tfstatelock-rancher"
+    name = "morsley-io-tfstatelock-vault"
     read_capacity = 20
     write_capacity = 20
     hash_key = "LockID"
