@@ -6,6 +6,6 @@
   secret_key  = var.secret_key
 
   domain_name = var.domain_name
-  lock_name = "cluster"
+  lock_name = "cert-manager"
 
 }
