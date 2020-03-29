@@ -1,4 +1,4 @@
-﻿module "aws-lock-rancher" {
+﻿module "aws-lock-bootstrap-rancher" {
 
   source = "./modules/aws"
 
@@ -6,6 +6,6 @@
   secret_key  = var.secret_key
 
   domain_name = var.domain_name
-  lock_name = "bootstrap-rancher"
+  lock_name = "bootstrap-bootstrap-rancher"
 
 }
