@@ -1,4 +1,4 @@
-﻿module "aws-lock-cluster" {
+﻿module "aws-lock-rancher" {
 
   source = "./modules/aws"
 

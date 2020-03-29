@@ -1,4 +1,4 @@
-﻿module "aws-lock-cluster" {
+﻿module "aws-lock-walking-skeleton" {
 
   source = "./modules/aws"
 
