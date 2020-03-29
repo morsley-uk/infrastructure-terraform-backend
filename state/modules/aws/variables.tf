@@ -6,4 +6,4 @@ variable "region" {
     default = "eu-west-2" #London
 }
 
-variable "name" {}
+variable "domain_name" {}
